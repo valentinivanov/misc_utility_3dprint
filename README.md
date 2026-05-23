@@ -40,3 +40,32 @@ To regenerate the STL:
 ```sh
 openscad -o exports/volvo_over_door_slot_hook.stl src/volvo_over_door_slot_hook.scad
 ```
+
+# Cup Caddy
+
+A 3D-printable carrier for bringing coffee or drink cups with you. Its twin cup rings and raised handle keep carried cups together and make them easier to move.
+
+## Files
+
+- `src/cup_caddy.scad` - cup caddy source.
+- `exports/cup_caddy.stl` - generated cup caddy STL.
+- `exports/cup_caddy_preview.png` - cup caddy preview.
+
+## Recommended Print Settings
+
+- Material: PETG, ABS, or another heat-resistant material. Avoid PLA for hot car interiors.
+- Perimeters/walls: 3 or more.
+- Infill: 35-50%, gyroid.
+- Supports: enabled.
+
+## Notes
+
+This is a convenience utility, not a safety-critical device.
+Author waives any liability for any damage or inconvenience resulted by the cup caddy usage. Use it on your own judgment.
+
+
+To regenerate the STL:
+
+```sh
+openscad -o exports/cup_caddy.stl src/cup_caddy.scad
+```
